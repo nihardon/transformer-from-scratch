@@ -13,3 +13,4 @@ class CharTokenizer:
 
     def decode(self, tokens):
         return "".join([self.index_to_string[i] for i in tokens])
+    
